@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 @font-face{
 	font-family: 'FonteLogo' ;
-	src: url("../_fonts/bubblegum-sans-regular.otf");
+	src: url("/src/_fonts/bubblegum-sans-regular.otf");
 }
 
 body{
@@ -36,7 +36,7 @@ header#cabecalho img#icone {
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
 	height: 140px; /*Altura do traço divisor que está no cabecalho */
-	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 85px; /*importação da imagem GLASS*/
+	background: url("/src/_imagens/glass-logo-peq.jpg") no-repeat 0px 85px; /*importação da imagem GLASS*/
 }
 header#cabecalho h1 {
 	font-family: 'FonteLogo', sans-serif;
